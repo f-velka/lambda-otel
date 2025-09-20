@@ -1,0 +1,12 @@
+{
+    "profiles": {
+        "Mock Lambda Test Tool": {
+            "commandName": "Executable",
+            "workingDirectory": "./bin/$(Configuration)/net8.0",
+            "executablePath": "$HOME/.dotnet/tools/dotnet-lambda-test-tool-8.0",
+            "environmentVariables": {
+                "AWS_LAMBDA_RUNTIME_API": "127.0.0.1:5050",
+            }
+        }
+    }
+}

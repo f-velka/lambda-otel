@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/NativeAotOtel/bin/Debug/net8.0/NativeAotOtel",
+            "cwd": "${workspaceFolder}/src/NativeAotOtel/bin/Debug/net8.0",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "env": {
+                "AWS_LAMBDA_RUNTIME_API": "localhost:5050",
+                "SERVICE_NAME": "NativeAotOtel"
+            }
+        }
+    ],
+    "compounds": []
+}

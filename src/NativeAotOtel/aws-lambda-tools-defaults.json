@@ -7,10 +7,10 @@
   ],
   "profile": "",
   "region": "",
-  "configuration": "Release",
+  "configuration": "Debug",
   "function-runtime": "dotnet8",
   "function-memory-size": 512,
   "function-timeout": 30,
-  "function-handler": "NativeAotOtelOtel",
+  "function-handler": "NativeAotOtel::NativeAotOtel.Function::FunctionHandler",
   "msbuild-parameters": "--self-contained true"
 }

@@ -62,7 +62,7 @@ public class Function
             .RunAsync();
     }
 
-    private static async Task<APIGatewayHttpApiV2ProxyResponse> FunctionHandler(APIGatewayHttpApiV2ProxyRequest request, ILambdaContext context)
+    public static async Task<APIGatewayHttpApiV2ProxyResponse> FunctionHandler(APIGatewayHttpApiV2ProxyRequest request, ILambdaContext context)
     {
         var headers = request.Headers ?? new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         foreach (var kv in headers)
