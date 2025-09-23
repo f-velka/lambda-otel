@@ -1,5 +1,6 @@
-using Xunit;
 using Amazon.Lambda.TestUtilities;
+
+using Xunit;
 
 namespace NativeAotOtelSimpleSample.Tests;
 

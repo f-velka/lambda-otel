@@ -1,15 +1,18 @@
+using System.Text.Json.Serialization;
+
 using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.RuntimeSupport;
 using Amazon.Lambda.Serialization.SystemTextJson;
 using Amazon.Runtime.Credentials;
+
 using AwsSignatureVersion4;
+
 using OpenTelemetry;
 using OpenTelemetry.Context.Propagation;
 using OpenTelemetry.Instrumentation.AWSLambda;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
-using System.Text.Json.Serialization;
 
 namespace NativeAotOtel;
 

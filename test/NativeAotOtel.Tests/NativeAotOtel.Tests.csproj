@@ -13,6 +13,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NativeAotOtelSimpleSample\NativeAotOtelSimpleSample.csproj" />
+    <ProjectReference Include="..\..\src\NativeAotOtel\NativeAotOtel.csproj" />
   </ItemGroup>
 </Project>
